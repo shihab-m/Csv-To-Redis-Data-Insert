@@ -28,7 +28,7 @@ const insertData = async (data) => {
 
 const setPromises = [];
 
-const readStream = fs.createReadStream("./user_migration_data.csv").pipe(csv());
+const readStream = fs.createReadStream("./your-file.csv").pipe(csv());
 
 readStream
   .on("data", (data) => {
