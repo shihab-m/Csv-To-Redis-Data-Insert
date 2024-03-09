@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+
+# Dependency directories
+/*/node_modules/
+/vendor/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment configuration
+.env
+
+# IDE
+.idea
+.vscode
+*.suo
+*.ntvs*
+
+# OS generated files
+.DS_Store
+Thumbs.db
